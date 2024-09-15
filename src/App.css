@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.terminal {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.logs {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background-color: black;
+  border: none;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+}
